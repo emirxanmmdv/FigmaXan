@@ -1,0 +1,135 @@
+.NewArrival {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NewArrival .NewArrivalContainer {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalTitle .NewArrivalTitleLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalTitle .NewArrivalTitleLeft .NewArrivalFeatured {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalTitle .NewArrivalTitleLeft .NewArrivalFeatured p {
+  font-family: "Poppins";
+  color: #db4444;
+  font-weight: 500;
+  font-size: 20px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalTitle .NewArrivalTitleLeft .NewArrivalFeatured span {
+  background-color: #db4444;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalTitle .NewArrivalTitleLeft .NewArrivalFeaturedTitle {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.NewArrival .NewArrivalContainer .NewArrivalTitle .NewArrivalTitleLeft .NewArrivalFeaturedTitle h2 {
+  font-size: 36px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow a {
+  color: white;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div1 {
+  grid-area: 1/1/3/3;
+  overflow: hidden;
+  display: flex;
+  background-color: black;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div1 img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 83px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div1 .div1Text {
+  position: absolute;
+  padding-left: 30px;
+  margin-top: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div2 {
+  grid-area: 1/3/2/5;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div2 img {
+  width: 50%;
+  height: 100%;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div2 .div2Text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div3 {
+  display: flex;
+  align-items: center;
+  grid-area: 2/3/3/4;
+  background-color: #191919;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div3 img {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div3 .div3Text {
+  position: absolute;
+  color: white;
+  display: flex;
+  padding-left: 50px;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 200px;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div4 {
+  display: flex;
+  align-items: center;
+  grid-area: 2/4/3/5;
+  background-color: #191919;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent;
+}
+.NewArrival .NewArrivalContainer .NewArrivalRow .div4 .div4Text {
+  position: absolute;
+  color: white;
+  display: flex;
+  padding-left: 50px;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 200px;
+}/*# sourceMappingURL=NewArrival.css.map */

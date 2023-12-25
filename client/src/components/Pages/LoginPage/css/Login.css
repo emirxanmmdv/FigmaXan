@@ -1,0 +1,75 @@
+.SignUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SignUp img {
+  width: 50%;
+  height: 781px;
+}
+.SignUp .SignUpContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SignUp .SignUpContainer form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.SignUp .SignUpContainer form input {
+  border: none;
+  border-bottom: 1px solid #bfbfbf;
+  padding: 10px 0px;
+  outline: none;
+  font-size: 16px;
+}
+.SignUp .SignUpContainer form .LoginButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SignUp .SignUpContainer form .LoginButtons .CreateAccount {
+  padding: 20px 80px;
+  background-color: #db4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.SignUp .SignUpContainer form .LoginButtons .CreateAccount:hover {
+  background-color: black;
+}
+.SignUp .SignUpContainer form .LoginButtons a {
+  text-decoration: none;
+  color: #db4444;
+}
+.SignUp .SignUpContainer form .withGoogle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0px;
+  background-color: white;
+  color: black;
+  outline: none;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.SignUp .SignUpContainer .LoginText {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.SignUp .SignUpContainer .LoginText a {
+  color: black;
+}/*# sourceMappingURL=Login.css.map */

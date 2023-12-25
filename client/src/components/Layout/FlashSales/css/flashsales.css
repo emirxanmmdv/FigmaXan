@@ -1,0 +1,169 @@
+.flashsales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flashsales .flashsalesContainer {
+  width: 80%;
+  display: flex;
+  border-bottom: 1px solid #f5f5f5;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: 30px;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft .flashsalesTodays {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft .flashsalesTodays p {
+  font-family: "Poppins";
+  color: #db4444;
+  font-weight: 500;
+  font-size: 20px;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft .flashsalesTodays span {
+  background-color: #db4444;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft .flashsalesTodaysTitle {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft .flashsalesTodaysTitle h2 {
+  font-size: 36px;
+}
+.flashsales .flashsalesContainer .flashsalesTitle .flashsalesTitleLeft .flashsalesTodaysTitle .flashsalesEnds {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards {
+  width: 271px !important;
+  margin-right: 100px !important;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img img {
+  position: absolute;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img span {
+  position: relative;
+  z-index: 5;
+  color: white;
+  background-color: #db4444;
+  padding: 10px;
+  margin-bottom: 190px;
+  margin-right: 190px;
+  border-radius: 10px;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img .addtocard {
+  position: absolute;
+  bottom: 106px;
+  padding: 10px;
+  width: 99%;
+  color: white;
+  border: none;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img .addtowishlist {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 9px -3px rgba(0, 0, 0, 0.75);
+  transform: translateX(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img .seeDetails {
+  position: absolute;
+  top: 60px;
+  border: none;
+  right: 12px;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  -moz-box-shadow: 1px 0px 9px -3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateX(10px);
+  visibility: hidden;
+  transition: 0.5s;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img:hover .addtocard {
+  opacity: 1;
+  visibility: visible;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img:hover .seeDetails {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .bg-img:hover .addtowishlist {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .flashsale-txt {
+  padding: 25px 0px;
+  display: flex;
+  width: 270px;
+  flex-direction: column;
+  gap: 10px;
+}
+.flashsales .flashsalesContainer .flashsalesProducts .flashsaleCards .flashsale-txt .prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.flashsales .flashsalesContainer .viewAllProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flashsales .flashsalesContainer .viewAllProducts button {
+  padding: 15px 40px;
+  border: none;
+  background-color: #db4444;
+  transition: 0.3s;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.flashsales .flashsalesContainer .viewAllProducts button:hover {
+  background-color: black;
+}/*# sourceMappingURL=flashsales.css.map */

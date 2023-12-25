@@ -1,0 +1,150 @@
+.BestSellingProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BestSellingProducts .BestSellingProductsContainer {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsTitle .BestSellingProductsTitleLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsTitle .BestSellingProductsTitleLeft .BestSellingProductsCategories {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsTitle .BestSellingProductsTitleLeft .BestSellingProductsCategories p {
+  font-family: "Poppins";
+  color: #db4444;
+  font-weight: 500;
+  font-size: 20px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsTitle .BestSellingProductsTitleLeft .BestSellingProductsCategories span {
+  background-color: #db4444;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsTitle .BestSellingProductsTitleLeft .BestSellingProductsThisMonthTitle {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsTitle .BestSellingProductsTitleLeft .BestSellingProductsThisMonthTitle h2 {
+  font-size: 36px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts {
+  display: flex;
+  align-items: center;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards {
+  width: 271px !important;
+  margin-right: 100px !important;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bgImage {
+  position: relative;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bgImage img {
+  position: absolute;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bgImage span {
+  position: relative;
+  z-index: 5;
+  color: white;
+  background-color: #db4444;
+  padding: 10px;
+  margin-right: 190px;
+  border-radius: 10px;
+  margin-bottom: 190px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bgImage .BestSellingProductsAddtoCard {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  width: 99%;
+  border: none;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bgImage .BestSellingProductsAddToWishlist {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 9px -3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bgImage .BestSellingProductsSeeDetails {
+  position: absolute;
+  right: 12px;
+  top: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 9px -3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bg_image:hover .BestSellingProductsAddTocard {
+  opacity: 1;
+  visibility: visible;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bg_image:hover .BestSellingProductsSeeDetails {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .bg_image:hover .BestSellingProductsAddToWishlist {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .BestSellingProductsText {
+  padding: 25px 0px;
+  width: 271px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.BestSellingProducts .BestSellingProductsContainer .BestSellingProductsProducts .myBestSellingProducts .BestSellingProductsCards .BestSellingProductsText .prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=BestSellingProducts.css.map */

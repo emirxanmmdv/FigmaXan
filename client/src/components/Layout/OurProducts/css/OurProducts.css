@@ -1,0 +1,156 @@
+.ourproducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourproducts .ourproductsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 100px;
+  gap: 30px;
+}
+.ourproducts .ourproductsContainer .ourproductsTitle .ourproductsTitleLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.ourproducts .ourproductsContainer .ourproductsTitle .ourproductsTitleLeft .ourproductsOURPROUCTS {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ourproducts .ourproductsContainer .ourproductsTitle .ourproductsTitleLeft .ourproductsOURPROUCTS p {
+  font-family: "Poppins";
+  color: #db4444;
+  font-weight: 500;
+  font-size: 20px;
+}
+.ourproducts .ourproductsContainer .ourproductsTitle .ourproductsTitleLeft .ourproductsOURPROUCTS span {
+  background-color: #db4444;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+.ourproducts .ourproductsContainer .ourproductsTitle .ourproductsTitleLeft .ourproductsOURPROUCTSTitle {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.ourproducts .ourproductsContainer .ourproductsTitle .ourproductsTitleLeft .ourproductsOURPROUCTSTitle h2 {
+  font-size: 36px;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards {
+  width: 270px !important;
+  margin-right: 100px !important;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg {
+  position: relative;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg img {
+  position: absolute;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg .discountRate {
+  position: absolute;
+  z-index: 5;
+  color: white;
+  background-color: #db4444;
+  padding: 10px;
+  margin-right: 190px;
+  border-radius: 10px;
+  margin-bottom: 190px;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg .newProduct {
+  position: absolute;
+  z-index: 5;
+  color: white;
+  background-color: #00ff66;
+  padding: 10px;
+  margin-right: 190px;
+  border-radius: 10px;
+  margin-bottom: 190px;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg .AllproductsAddToCard {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  width: 99%;
+  border: none;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg .AllproductsAddToWishlist {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 9px -3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg .AllproductsSeeDetails {
+  position: absolute;
+  right: 12px;
+  top: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 9px -3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg:hover .AllproductsAddToCard {
+  opacity: 1;
+  visibility: visible;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg:hover .AllproductsSeeDetails {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .backgroundImg:hover .Allproducts_addtowishlist {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .AllproductsText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px 0px;
+  width: 270px;
+}
+.ourproducts .ourproductsContainer .ourproductsProducts .mySwiper .ourproductsCards .AllproductsText .prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=OurProducts.css.map */
