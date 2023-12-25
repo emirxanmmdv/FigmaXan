@@ -18,7 +18,7 @@ const AboutPage = () => {
   return (
     <>
    <section className='OurStory'>
-   <div className='OurStory_container'>
+   <div className='OurStoryContainer'>
     <div className='txt'>
       <h2>Our Story</h2>
       <p>Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p>
